@@ -126,7 +126,7 @@ public class RobotService {
                     .resultFormat(GenerationParam.ResultFormat.MESSAGE) // the result if message format.
                     .topP(0.8).enableSearch(true) // set streaming output
                     .incrementalOutput(true) // get streaming output incrementally
-                    .apiKey("sk-60ebc8e0c2df4280bb4dafe71c97a1b2")
+                    .apiKey("？？？")
                     .build();
             Flowable<GenerationResult> result = gen.streamCall(param);
             StringBuilder fullContent = new StringBuilder();
