@@ -2,7 +2,7 @@ package com.seven.bit_robot.entry;
 
 import com.fasterxml.jackson.annotation.*;
 
-public class Message {
+public class BitMessage {
     private Data data;
     private String type;
 

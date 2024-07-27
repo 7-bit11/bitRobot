@@ -15,7 +15,7 @@ public class MessageEntry {
     private String rawMessage;
     private long font;
     private String subType;
-    private List<Message> message;
+    private List<BitMessage> bitMessage;
     private String messageFormat;
     private String postType;
     private long groupID;
@@ -76,9 +76,9 @@ public class MessageEntry {
     public void setSubType(String value) { this.subType = value; }
 
     @JsonProperty("message")
-    public List<Message> getMessage() { return message; }
+    public List<BitMessage> getMessage() { return bitMessage; }
     @JsonProperty("message")
-    public void setMessage(List<Message> value) { this.message = value; }
+    public void setMessage(List<BitMessage> value) { this.bitMessage = value; }
 
     @JsonProperty("message_format")
     public String getMessageFormat() { return messageFormat; }
